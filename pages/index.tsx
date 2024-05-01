@@ -22,7 +22,7 @@ const IndexPage: NextPage = () => {
   // ❸ ローディング中でなければ、画像を表示する
   return (
     <div className={styles.page}>
-    <button onClick={handleClick}>他の猫を見る</button>
+    <button onClick={handleClick}>aaaaaaaa</button>
     <div className={styles.page}>{loading || <img src={imageUrl} />}</div>
     </div>
   );
